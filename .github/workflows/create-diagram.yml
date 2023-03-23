@@ -13,4 +13,4 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
-          excluded_paths: ".github, .vscode, node_modules, dist, test, expressLib/node_modules, .dockerignore, .eslintrc.js, .gitignore, .gitpod.yaml, .prettierrc, tsconfig.json, tsconfig.build.json, README.md, yarn.lock, package.lock.json,package.json, expressLib/package.json, expressLib/package.lock.json nest-clie.json, Dockerfile"
+          excluded_paths: ".github, .vscode, node_modules, dist, test, expressLib/node_modules, .dockerignore, .eslintrc.js, .gitignore, .gitpod.yaml, .prettierrc, tsconfig.json, tsconfig.build.json, README.md, yarn.lock, package.lock.json,package.json, expressLib/package.json, expressLib/package.lock.json, nest-cli.json, Dockerfile"
