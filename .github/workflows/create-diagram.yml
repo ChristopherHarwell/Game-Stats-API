@@ -13,4 +13,4 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
-          excluded_paths: "ignore, ./expressLib/node_modules"
+          excluded_paths: ".github, .vscode, node_modules, dist, expressLib/node_modules"
